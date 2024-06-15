@@ -10,8 +10,6 @@ const fetchHTMLContent = async (url) => {
   }
 };
 
-const extractMainContent = (html) => {
-    return { text: html };
-  };
 
-module.exports = { fetchHTMLContent, extractMainContent };
+
+module.exports = { fetchHTMLContent };
